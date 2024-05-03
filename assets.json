@@ -1,4 +1,35 @@
 {
   "name": "Omniflix Devnet",
-  "assets": []
+  "assets": [
+    {
+      "network": {
+        "name": "OmniFlix",
+        "chain_id": "devnet-alpha-3",
+        "api_address": "https://api.devnet-alpha.omniflix.network",
+        "rpc_address": "https://rpc.devnet-alpha.omniflix.network",
+        "denom": "factory/omniflix1vfy3ztvacff9xcp92dp7we3hs3rkfcw0lufuq5/LAB",
+        "decimals": 6,
+        "display_denom": "LAB",
+        "address_prefix": "omniflix",
+        "explorer": "https://mintscan.io/omniflix",
+        "gas_price_step": {
+          "low": 0,
+          "average": 0.2,
+          "high": 0.04
+        }
+      },
+      "channel": "channel-0",
+      "ibc_denom_hash": "factory/omniflix1vfy3ztvacff9xcp92dp7we3hs3rkfcw0lufuq5/LAB",
+      "created_at": "2024-04-09T11:03:27.029Z",
+      "updated_at": "2024-04-09T11:14:45.218Z",
+      "__v": 0,
+      "destination_channel": "channel-199",
+      "coingecko_id": "mad-scientists",
+      "price": {
+        "inr": 6200,
+        "usd": 75
+      },
+      "image_URL": "https://ipfs.omniflix.studio/ipfs/QmQq4ngsax23eMDRSCPWViJNBmShy5SPMLagSDPpHV6TqA"
+    }
+  ]
 }
